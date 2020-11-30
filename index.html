@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+  <title>Joguinho da Sorte</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Jogo das Portas</h1>
+  <hr/>
+  <h2>Escolha:</h2>
+  <div class="door">
+    <img src="porta.png" alt="porta0" id="porta0_img"/> 
+    <img src="porta.png" alt="porta1" id="porta1_img"/>
+    <img src="porta.png" alt="porta2" id="porta2_img"/>
+    <img src="porta.png" alt="porta3" id="porta3_img"/>
+    <img src="porta.png" alt="porta4" id="porta4_img"/>
+  </div>
+  <div class="Escolher">
+    <input type="button" id="porta0" value="Porta1" onclick="porta0()"/>
+    <input type="button" id="porta1" value="Porta2" onclick="porta1()"/>
+    <input type="button" id="porta2" value="Porta3" onclick="porta2()"/>
+    <input type="button" id="porta3" value="Porta4" onclick="porta3()"/>
+    <input type="button" id="porta4" value="Porta5" onclick="porta4()"/>
+  </div>
+  <div class="sorteio">
+  <p id="msg"></p>
+  <input type="button" onclick="clicou()" value="Sortear" class="sortear">
+  
+  <input type="button" class="sortear" value="Jogar Nov." onclick="zera()"/>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
