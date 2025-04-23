@@ -4,6 +4,10 @@
 }
 body {
     background: #FEB249;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
   font: normal 25pt Arial;
@@ -22,8 +26,8 @@ hr {
   height: 3px;
 }
 img {
-  largura : 50px ;
-  altura : 50px ;
+  width : 50px;
+  height : 50px;
   padding: 10px;
   margin-left: 8px;
 }
